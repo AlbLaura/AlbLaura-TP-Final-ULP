@@ -1,0 +1,474 @@
+/* COLORES
+
+#F5F5F5 Blanco
+#0D3B66 Azul
+#F4D35E Amarillo
+#FAF0CA Amarillo claro
+#EE964B Naranja
+#EE554B Rojo
+#3F86C9 Celeste
+
+box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+
+#849598 Azul 50%
+#E7F1FA Azul Gris
+*/
+
+/* ------------------------------------------- */
+/* Principales */
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+span {
+    font-style: italic;
+    font-size: small;
+}
+a{
+    color: #0D3B66;
+}
+a:hover {
+    color: #568CBE;
+    text-decoration: none;
+}
+.titulo {
+    margin-top: 10px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.container-fluid {
+    background: #F5F5F5;
+}
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    background: #F4D35E;
+    color: #0D3B66;
+    position: relative;
+    bottom:0px;
+}
+.footer ul li {
+    list-style-type: none;
+}
+/* Principales */
+/* ------------------------------------------- */
+/* Overlay */
+.noticia{
+    position: relative;
+    border-radius: 10px;
+    height: 43%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.secundaria img{
+    position: relative;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.secundaria {
+    height: 20%;
+}
+.info {
+    height: 20%;
+}
+.info h5 {
+    color: #0D3B66;
+}
+.info p {
+    color: #568CBE;
+}
+.overlay {
+    position: absolute;
+    padding-left: 5%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:flex-end;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay:hover {
+    border-radius: 10px;
+    height: 100%;
+    opacity: 1;
+    color: #FFF;
+}
+.overlay__titulo {
+    font-size: 2em;
+}
+.overlay__descripcion {
+    font-size: 1.25em;
+}
+/* Overlay */
+/* ------------------------------------------- */
+/* IMAGENES */
+.np-1{
+    background-image: url('../imagenes/terrazas.jpg');
+}
+.np-2{
+    background-image: url('../imagenes/parqueeolico.jpg');
+}
+/* IMAGENES */
+/* ------------------------------------------- */
+/* Navbar */
+nav .navbar {
+    background: #FAF0CA;
+}
+nav .dropdown-menu {
+    background-color: #FAF0CA;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+}
+nav .dropdown-item{
+    background-color: #FAF0CA;
+}
+nav .dropdown-item:hover {
+    background-color: #F4D35E;
+}
+nav .navbar ul li {
+    margin: 0px 50px 0px 50px;
+}
+nav .navbar ul li:hover {
+    background: #F4D35E;
+    border-radius: 5px;
+}
+nav .navbar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#0D3B66;
+}
+nav .navbar ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color:#022241;
+}
+/* Navbar */
+/* ------------------------------------------- */
+/* Header */
+header .navbar {
+    background-color: #0D3B66;
+}
+header .navbar-brand {
+    color: #FAF0CA;
+    margin-right: 120px;
+}
+header .navbar-brand:hover {
+    color: #F4D35E;
+}
+header .navbar ul li a {
+    text-decoration: none;
+    color: #FAF0CA;
+}
+header .dropdown button i {
+    color: #FAF0CA; 
+}
+header .dropdown button i:hover {
+    color: #F4D35E; 
+}
+header .dropdown-item{
+    background-color: #FAF0CA;
+}
+header .dropdown-item:hover {
+    background-color: #F4D35E;
+}
+header .navbar ul li a:hover {
+    color: #F4D35E;
+}
+/* Header */
+/* ------------------------------------------- */
+/* Botones */
+.azul {
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+    background: #0D3B66;
+    color: #FAF0CA;
+}
+.azul:hover {
+    background: #052e55;
+    color: #FAF0CA;
+}
+
+.amarillo {
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+    color: #0D3B66;
+    background: #F4D35E;
+}
+.amarillo:hover {
+    background: #e2bf40;
+}
+/* Botones */
+/* ------------------------------------------- */
+/* Publicidad */
+.publicidad_vertical {
+    margin-bottom: 10px;
+    position: center;
+    height: 400px;
+    background-image: url("https://placeimg.com/360/500/arch");
+    background-repeat: no-repeat;
+}
+.imagen_2 {
+    background-image: url("https://placeimg.com/360/500/tech");
+}
+.publicidad_vertical i {
+    float: right;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+.publicidad_horizontal {
+    margin: auto;
+    background-image: url("https://placeimg.com/1200/300/nature");
+    background-repeat: no-repeat;
+    position: center;
+    height: 100px;
+    z-index: 15;
+}
+.publicidad_horizontal i {
+    float: right;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+/* Publicidad */
+/* ------------------------------------------- */
+/* Redes */
+.redes #fb:hover {
+    color: #3755fd;
+}
+.redes #tw:hover {
+    color: rgb(29, 155, 240);
+}
+.redes #ig:hover {
+    color: #ff379b;
+}
+.redes #gh:hover {
+    color: rgb(146, 78, 255);
+}
+/* Redes */
+/* ------------------------------------------- */
+/* Mapa */
+.fondo {
+    background-color: #0D3B66;
+    color: #FAF0CA;
+}
+
+#mapa {
+    height: 500px;
+    border: 0;
+    width:100%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Mapa */
+/* ------------------------------------------- */
+/* Recuadro */
+#comment {
+    resize: none;
+}
+#recuadro_contacto{
+    margin: auto;
+    height: 500px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+    color: #0D3B66;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#recuadro_login {
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    background-color: #F5F5F5;
+    padding: 5%;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.25);
+    color: #0D3B66;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* Recuadro */
+/* ------------------------------------------- */
+/* Tiempo */
+.png {
+    height: 100px;
+}
+.card-body {
+    padding-top: 0%;
+}
+.p-principal {
+    color: #0D3B66;
+    border-radius: 10%;
+    height: 300px;
+    text-align: center;
+    border: none;
+    background-color:rgba(250, 240, 202, 1);
+    box-shadow: 2px 5px 4px 2px rgba(244, 211, 94, 1);
+}
+.p-principal:hover{
+    background-color:rgb(253, 230, 136);
+}
+.p-secundaria {
+    width: 100%;
+    padding-top: 10px;
+}
+.p-principal .card-header, .p-principal .card-footer{
+    border-bottom: none !important;
+    border-top: none !important;
+    background-color:rgba(0 , 0, 0, 0);
+    border-radius: 20px;
+}
+.p-dia {
+    color: #0D3B66;
+    height: 300px;
+    text-align: center;
+    border: none;
+    background-color: #F5F5F5;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, .5);
+}
+.p-dia:hover {
+    background-color: #dff1ff;
+}
+.p-dia .card-header {
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 0%;
+}
+.p-dia .card-header, .p-dia .card-footer{
+    border-bottom: none !important;
+    border-top: none !important;
+    background-color:rgba(0 , 0, 0, 0);
+    border-radius: 20px;
+}
+/* Tiempo */
+/* ------------------------------------------- */
+/* Dolar */
+
+.mercados {
+    background-color: #FAF0CA;
+    height: 55px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, .5);
+    padding: 10px;
+    margin: 10px;
+    font-size: small;
+}
+.mercados p {
+    margin: 0;
+}
+.bg-mercados {
+    background-color: #F4D35E;
+    padding: 10px;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, .2);
+}
+.m-arrow-down {
+    background: #EE964B;
+    border-radius: 10px;
+    color: #FAF0CA;
+    height: 100%;
+    padding: 10px 0px 0px 13px;
+}
+.m-arrow-up {
+    border-radius: 10px;
+    border: #EE964B 1px solid;
+    color: #EE964B;
+    height: 100%;
+    padding: 8px 0px 0px 12px;
+}
+.m-titulo {
+    color: #0D3B66;
+}
+.m-resultado {
+    color: #849598;
+}
+.m-porcentaje_neg {
+    color: #EE554B;
+    font-weight: bold;
+    padding: 0%;
+}
+.m-porcentaje_pos {
+    color: #3F86C9;
+    font-weight: bold;
+    padding: 0%;
+}
+.d-blue {
+    height: 300px;
+    color: #0D3B66;
+    padding: 30px;
+    background-color: #FAF0CA;
+    border-radius: 10%;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, .2);
+}
+.d-titulo {
+    font-size: 2.3em;
+}
+.d-subtitulo {
+    font-size: 2em;
+}
+.red {
+    color: #EE554B;
+}
+.d-div {
+    background-color: #F4D35E;
+    color: #0D3B66;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, .2);
+    height: 48px;
+    padding: 10px;
+}
+.claro {
+    background-color: #FAF0CA;
+}
+.d-imagenes {
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
+}
+.d-noticia {
+    background-color: #E7F1FA;
+    color: #0D3B66;
+    box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, .3);
+    padding: 10px;
+}
+.d-noticia:hover {
+    background-color: #a6c6e2e5;
+    box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, .5);
+}
+.audiovisual {
+    margin-left: 100px;
+}
+.radio, .imagen-completa {
+    width: 100%;
+}
+.radio-fondo {
+    background-color: #F4D35E;
+    padding: 20px;
+}
+/* Dolar */
+/* ------------------------------------------- */
+/* Tematicas */
+
+.tematicas {
+    background-color: #F5F5F5;
+    color: #0D3B66;
+    box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, .3);
+}
+.tematicas-texto {
+    font-size:large;
+}
+/* Tematicas */
+/* ------------------------------------------- */
+
+/*
+    Prueba responsive
+*/
