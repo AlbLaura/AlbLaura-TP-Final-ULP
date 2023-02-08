@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
 
     <!-- CSS General -->
-    <link rel="stylesheet" href="<?=base_url();?>assets/css/style.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets\css\style.css">
 
 </head>
 <body>

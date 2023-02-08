@@ -1,6 +1,6 @@
 <header>
-    <nav class="navbar d-flex justify-content-between col-12">
-        <ul class="navbar-nav">
+    <nav class="navbar d-flex justify-content-between">
+        <ul class="navbar-nav" id="resumen-time">
             <li class="nav-item">
                 <a class="nav-link" href="<?=base_url()?>pagina/menu/tiempo"><i class="fa-solid fa-cloud fa-xl"></i> <span>San Luis - Nublado - 19°C</span></a>
             </li>

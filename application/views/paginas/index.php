@@ -1,19 +1,8 @@
 <div class="container-fluid">
-    
-    <div class="row">
-        <div class="col-4">
-            <h2 class="titulo">ultimas noticias</h2>
-        </div>
-        <div class="col-6">
-            <h4 class="titulo mt-3">noticias destacadas</h4>
-        </div>
-        <div class="col-2">
-            <h4 class="titulo mt-3">publicidad</h4>
-        </div>
-    </div>
     <div class="row">
         <!-- NOTICIAS PRINCIPALES -->
-        <div class="col-4">
+        <div class="col-12 col-lg-4">
+            <h2 class="titulo">ultimas noticias</h2>
             <div class="noticia np-1">
                 <a href="https://sanluisinforma.com.ar/la-administracion-publica-cobrara-este-miercoles-31-de-agosto/" target="_blank" class="overlay">
                     <h5 class="overlay__titulo">La administración pública cobrará este miércoles 31 de agosto</h5>
@@ -28,7 +17,8 @@
             </div>
         </div>
         <!-- NOTICIAS SECUNDARIAS -->
-        <div class="col-2">
+        <div class="col-lg-2">
+            <h4 class="titulo mt-3">noticias destacadas</h4>
             <div class="secundaria n-1 mt-3">
                 <a href="https://sanluisinforma.com.ar/el-gobierno-provincial-coordina-la-logistica-de-traslado-de-materiales-para-el-inicio-de-obras-hidricas-en-villa-de-merlo/" target="_blank">
                     <img src="<?=base_url()?>assets/imagenes/merlo.jpg">
@@ -51,8 +41,8 @@
             </div>
         </div>
         <!-- INFO -->
-        <div class="col-4">
-            <div class="info mt-4">
+        <div class="col-12 col-lg-4 info-noticias">
+            <div class="info">
                 <a href="https://sanluisinforma.com.ar/el-gobierno-provincial-coordina-la-logistica-de-traslado-de-materiales-para-el-inicio-de-obras-hidricas-en-villa-de-merlo/"  target="_blank">
                     <h5>
                         El Gobierno provincial coordina la logística de traslado de materiales para el inicio de obras hídricas en Villa de Merlo
@@ -64,7 +54,7 @@
                 </a>
                 <i class="fa-regular fa-calendar"></i> <span>18 de octubre 2022</span>
             </div>
-            <div class="info mt-4">
+            <div class="info">
                 <a href="https://sanluisinforma.com.ar/adios-whatsapp-la-aplicacion-no-funcionara-mas-en-estos-moviles-entra-al-informe-y-sabras-si-debes-cambiar-el-celu/"  target="_blank">
                     <h5>
                         Adiós whatsapp: La aplicación no funcionara mas en estos moviles, entra al informe y sabras si debes cambiar el celular
@@ -76,7 +66,7 @@
                 </a>
                 <i class="fa-regular fa-calendar"></i> <span>17 de octubre 2022</span>
             </div>
-            <div class="info mt-4">
+            <div class="info">
                 <a href="https://sanluisinforma.com.ar/anuncian-lluvias-y-vientos-la-semana-comienza-templada-y-las-lluvias-llegarian-desde-la-tarde-de-este-lunes/"  target="_blank">
                     <h5>
                         Anuncian Lluvias y vientos: La semana comienza templada y las lluvias llegarían desde la tarde de este lunes
@@ -88,7 +78,7 @@
                 </a>
                 <i class="fa-regular fa-calendar"></i> <span>17 de octubre 2022</span>
             </div>
-            <div class="info mt-4">
+            <div class="info">
                 <a href="https://sanluisinforma.com.ar/el-rosendo-hernandez-se-prepara-para-recibir-al-turismo-carretera/"  target="_blank">
                     <h5>
                         El “Rosendo Hernández” se prepara para recibir al Turismo Carretera
@@ -101,15 +91,11 @@
                 <i class="fa-regular fa-calendar"></i> <span>12 de octubre 2022</span>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="publi-vert">
+            <h4 class="titulo mt-3">publicidad</h4>
             <?=$publicidad_ver?>
             <?=$publicidad_ver2?>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6"><?=$publicidad_hor?></div> <!-- publicidad -->
-        <div class="col-3"></div>
     </div>
     
 </div>

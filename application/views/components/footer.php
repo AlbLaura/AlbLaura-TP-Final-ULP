@@ -1,8 +1,8 @@
 <div class="footer">
     <div class="row">
-        <div class="col-2 pl-5 ">
+        <div class="col-12 col-md-12 col-lg-3 text-center">
             <h5>Categorias Mas Buscadas</h5>
-            <ul>
+            <ul id="ul-footer"> 
                 <li><a href="<?=base_url()?>pagina/tematica/cultura">Cultura</a></li>
                 <li><a href="<?=base_url()?>pagina/tematica/deportes">Deportes</a></li>
                 <li><a href="<?=base_url()?>pagina/tematica/tecnologia">Tecnologia</a></li>
@@ -10,14 +10,14 @@
                 <li><a href="<?=base_url()?>pagina/tematica/ciencia">Ciencia</a></li>
             </ul>
         </div>
-        <div class="col-8 text-center">
-            <h4 class="mb-3"><?=nombre_empresa?></h4>
+        <div class="col-12 col-md-12 col-lg-6 text-center">
+            <h4 class="mb-3 footer-title"><?=nombre_empresa?></h4>
             <p>Copyright © 2008 - <?=$anio?> - La Verdad Obliga</p>
-            <p><a href="https://sanluisinforma.com.ar" target="_blank"><?=$direccion?></a> - San Luis - Pcia. de San Luis - Argentina</p>
-            <span class="mt-2">Todos los derechos reservados</span>
+            <p id="direccion"><a href="https://sanluisinforma.com.ar" target="_blank"><?=$direccion?></a> - San Luis - Pcia. de San Luis - Argentina</p>
+            <span>Todos los derechos reservados</span>
         </div>
-        <div class="col-2 pr-5">
-            <h5>Redes Sociales</h5>
+        <div class="col-sm-12 col-md-12 col-lg-3 text-center">
+            <h5 class="footer-title">Redes Sociales</h5>
             <div class="redes">
                 <a id="fb" href="https://www.facebook.com/informasanluis" target="_blank">
                     <i class="fa-brands fa-facebook fa-2xl"></i> Facebook
