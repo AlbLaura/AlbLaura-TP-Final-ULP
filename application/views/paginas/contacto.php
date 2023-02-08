@@ -2,18 +2,18 @@
     <div class="container pt-3">
         <div id="recuadro_contacto">
             <div class="row text-center">
-                <div class="col-12">
+                <div class="col-md-12">
                     <h3>CONTACTO</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="form-group text-center">
                         <label for="comment">MENSAJE</label>
-                        <textarea class="form-control" rows="15" id="comment" placeholder="Escribe tu mensaje aqui..." maxlength="400"></textarea>
+                        <textarea class="form-control" rows="10" id="comment" placeholder="Escribe tu mensaje aqui..." maxlength="400"></textarea>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <form action="/action_page.php" class="was-validated">
                         <div class="text-center">
                             <label class="comment">TUS DATOS</label>
@@ -32,15 +32,15 @@
                         </div>
                     </form>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-md-12">
                             <label for="comment">Asunto</label>
                             <textarea class="form-control " rows="1" id="comment" placeholder="Consulta" required></textarea>
                         </div>
-                        <div class="col-3 mt-5">
+                        <div class="col-md-3 mt-5">
                             <button class="btn azul btn-block">Editar</button>
                         </div>
-                        <div class="col-6"></div>
-                        <div class="col-3 mt-5">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-3 mt-5">
                             <button class="btn amarillo btn-block float-right">Enviar</button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col mt-4">
+            <div class="col-12 mt-4">
                 <?=$publicidad_hor?>
             </div>
         </div>
