@@ -4,7 +4,7 @@
             <div class="col-12 text-center mt-2 mb-2"><h1>TECNOLOGIA</h1><hr></div>
         </div>
         <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-lg-9">
                 <a href="https://www.argentina.gob.ar/noticias/argentina-es-el-pais-que-mas-invierte-en-tecnologia-de-la-informacion-en-la-region" target="_blank"><h2>Argentina es el país que más invierte en tecnología de la información en la región</h2></a>
 
                 <p class="tematicas-texto mt-3">Así lo señala un informe publicado por la EAE Business School, además el gasto en tecnología de la información en América Latina habría aumentado un 7,7 %. En este sentido, Argentina anunció ayer que elevará su presupuesto de ciencia y tecnología a 500 mil millones de pesos en 2023.</p>
@@ -32,7 +32,7 @@
                 <p class="tematicas-texto mt-3 mb-5">Redes potentes, mayor conectividad. En 2021, los ciudadanos de América Latina, informaron que esperaban que las redes 5G ayudaran a cerrar la brecha digital al brindar conectividad a una mayor parte de la población; también expresaron su esperanza de que esta tecnología mejore la calidad de vida de las personas y poder lograr un impacto positivo en la economía. En el caso de Latinoamérica se pone de manifiesto la importancia que tiene las conexiones y el desarrollo de internet y el IoT para las organizaciones.</p>
 
             </div>
-            <div class="col-3 text-center">
+            <div class="col-3 text-center" id="publi-vert">
                 <h4>PUBLICIDAD</h4>
                 <hr>
                 <?=$publicidad_ver?>
@@ -47,7 +47,7 @@
                 <!-- Cultura -->
                 <a href="<?=base_url()?>pagina/tematica/cultura">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Clarín - Hace 18 Horas</span>
@@ -59,7 +59,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/cultura1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                 <!-- Deportes -->
                 <a href="<?=base_url()?>pagina/tematica/deportes">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>La Nacion - Hace 20 Horas</span>
@@ -79,7 +79,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/deporte1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                 <!-- Salud -->
                 <a href="<?=base_url()?>pagina/tematica/salud">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Infobae - Hace 1 dia</span>
@@ -99,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/salud1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                 <!-- Ciencia -->
                 <a href="<?=base_url()?>pagina/tematica/ciencia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>El Mundo - Hace 18 Horas</span>
@@ -119,7 +119,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/ciencia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>

@@ -3,8 +3,8 @@
         <div class="col-12 text-center mt-2"><h3>Mercados</h3></div>
     </div>
     <div class="row bg-mercados">
-        <div class="col-1"></div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-1"></div>
+        <div class="col-sm-12 col-lg-2">
             <a href="https://www.google.com/finance/quote/.DJI:INDEXDJX" target="_blank">
                 <div class="row mercados">
                     <div class="col-2 m-arrow-down"><i class="fa-solid fa-arrow-down fa-xl"></i></div>
@@ -13,7 +13,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2">
             <a href="https://www.google.com/finance/quote/USD-ARS" target="_blank">
                 <div class="row mercados">
                     <div class="col-2 m-arrow-up"><i class="fa-solid fa-arrow-up fa-xl"></i></div>
@@ -22,7 +22,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2">
             <a href="https://www.google.com/finance/quote/.INX:INDEXSP" target="_blank">
                 <div class="row mercados">
                     <div class="col-2 m-arrow-down"><i class="fa-solid fa-arrow-down fa-xl"></i></div>
@@ -31,7 +31,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2">
             <a href="https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ" target="_blank">
                 <div class="row mercados">
                     <div class="col-2 m-arrow-down"><i class="fa-solid fa-arrow-down fa-xl"></i></div>
@@ -40,7 +40,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2">
             <a href="https://www.google.com/finance/quote/VIX:INDEXCBOE" target="_blank">
                 <div class="row mercados">
                     <div class="col-2 m-arrow-up"><i class="fa-solid fa-arrow-up fa-xl"></i></div>
@@ -49,18 +49,18 @@
                 </div>
             </a>
         </div>
-        <div class="col-1"></div>
+        <div class="col-sm-12 col-lg-1"></div>
     </div>
     <div class="row mt-3">
-        <div class="col-10">
+        <div class="col-sm-12 col-lg-10">
             <h3>DOLAR HOY</h3>
         </div>
-        <div class="col-2 text-center">
+        <div class="col-2 text-center" id="none">
             <h5>PUBLICIDAD</h5>
         </div>
     </div>
     <div class="row">
-        <div class="col-3 pr-3">
+        <div class="col-sm-12 col-lg-3 pr-3">
             <a href="https://www.cronista.com/MercadosOnline/monedas.html?gclid=Cj0KCQjwkt6aBhDKARIsAAyeLJ28EclskzVdIIQlnKQEwMH0oMNENFfXxjJIqJJ8JRDQgSnAMyHInVgaAi_tEALw_wcB" target="_blank">
                 <div class="text-center d-blue">
                     <div class="row">
@@ -79,13 +79,8 @@
                     </div>
                 </div>
             </a>
-            <div class="row">
-                <div class="col-12 mt-5">
-                    <h3><i>Noticias sobre los mercados</i></h3>
-                </div>
-            </div>
         </div>
-        <div class="col-7">
+        <div class="col-sm-12 col-lg-7 mt-3">
             <a href="https://www.cronista.com/MercadosOnline/monedas.html?gclid=Cj0KCQjwkt6aBhDKARIsAAyeLJ28EclskzVdIIQlnKQEwMH0oMNENFfXxjJIqJJ8JRDQgSnAMyHInVgaAi_tEALw_wcB" target="_blank">
                 <div class="row d-div mb-3">
                     <div class="col-4"><b>DOLAR OFICIAL PROMEDIO</b></div>
@@ -132,15 +127,18 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-2" id="publi-vert">
             <?=$publicidad_ver?>
         </div>
     </div>
-    <div class="row pl-3">
-        <div class="col-10 ">
+    <div class="row pl-3 mt-3 mb-2">
+        <div class="col-12">
+            <h3><i>Noticias sobre los mercados</i></h3>
+        </div>
+        <div class="col-sm-12 col-lg-10">
             <a href="https://www.infobae.com/economia/2022/10/07/un-pago-al-fmi-hizo-caer-las-reservas-mas-de-usd-700-millones-y-al-bcra-le-urge-el-proximo-desembolso/" target="_blank">
                 <div class="row d-noticia mb-3">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-lg-9">
                         <div class="row">
                             <div class="col-12">
                                 <span>Infobae - Hace 6 Horas</span>
@@ -152,14 +150,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="none">
                         <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/dolar.jpg" alt="noticia 1 - dolar">
                     </div>
                 </div>
             </a>
             <a href="https://www.infobae.com/noticias/2022/10/06/valor-de-apertura-del-dolar-en-argentina-este-6-de-octubre-de-usd-a-ars/" target="_blank">
                 <div class="row d-noticia mb-3">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-lg-9">
                         <div class="row">
                             <div class="col-12">
                                 <span>Infobae - Hace 1 Dia</span>
@@ -171,14 +169,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="none">
                         <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/dolar2.jpg" alt="noticia 2 - valor apertura">
                     </div>
                 </div>
             </a>
             <a href="https://www.lanacion.com.ar/agencias/forex-dolar-se-valoriza-antes-de-los-datos-de-empleo-del-viernes-en-eeuu-nid06102022/" target="_blank">
                 <div class="row d-noticia mb-3">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-lg-9">
                         <div class="row">
                             <div class="col-12">
                                 <span>la Nacion - Hace 23 Horas</span>
@@ -190,14 +188,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="none">
                         <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/forex-dolar.jpg" alt="noticia 3 - forex dolar">
                     </div>
                 </div>
             </a>
             <a href="https://tn.com.ar/tecno/novedades/2022/10/06/todo-sobre-x-la-super-aplicacion-que-elon-musk-crearia-despues-de-comprar-twitter/" target="_blank">
                 <div class="row d-noticia mb-3">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-lg-9">
                         <div class="row">
                             <div class="col-12">
                                 <span>TN - Hace 1 Dia</span>
@@ -209,14 +207,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="none">
                         <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/elon-musk.jpg" alt="noticia 4 - elon musk">
                     </div>
                 </div>
             </a>
             <a href="https://www.ambito.com/finanzas/bonos/arranco-el-trade-electoral-dolares-saltaron-62-y-riesgo-pais-casi-10-tres-dias-n5566317" target="_blank">
                 <div class="row d-noticia">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-lg-9">
                         <div class="row">
                             <div class="col-12">
                                 <span>ámbito - Hace 1 dia</span>
@@ -228,17 +226,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3" id="none">
                         <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/trade-electoral.jpg" alt="noticia 5 - trade electoral">
                     </div>
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-2" id="publi-vert">
             <?=$publicidad_ver2?>
         </div>
     </div>
-    <div class="row mt-3">
+    <div class="row mt-3" id="publi-hor">
         <div class="col-3"></div>
         <div class="col-6"><?=$publicidad_hor?></div> <!-- publicidad -->
         <div class="col-3"></div>

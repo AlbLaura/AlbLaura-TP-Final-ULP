@@ -4,7 +4,7 @@
             <div class="col-12 text-center mt-2 mb-2"><h1>DEPORTES</h1><hr></div>
         </div>
         <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-lg-9">
                 <a href="https://www.lanacion.com.ar/deportes/futbol/lionel-messi-en-psg-maccabi-haifa-en-vivo-el-minuto-a-minuto-del-partido-por-la-champions-league-nid25102022/" target="_blank"><h2>Lionel Messi en PSG - Maccabi Haifa, en vivo: la Pulga montó un show con Kylian Mbappé y Neymar para una goleada aplastante</h2></a>
 
                 <p class="tematicas-texto mt-3">El equipo que dirige Christophe Galtier confirmó su clasificación a los octavos de final de la Champions League con un 7-2 en Paris; el número 30 marcó un doblete, incluyendo una excelsa definición de tres dedos</p>
@@ -53,7 +53,7 @@
 
                 <p class="tematicas-texto mt-3 mb-2">Messi definitivamente volvió a lo que supo mostrar durante toda su carrera. Con los dos tantos de este partido ya alcanzó la imponente cifra de 11 goles y 11 asistencias en lo que va de la temporada 2022/23, siendo el primer futbolista en superar las 10 unidades en ambos registros. El único que ya había alcanzado las dobles cifras antes que él había sido Cody Gakpo, de PSV, que acumula 12 tantos y 10 pases-gol.</p>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-3 text-center" id="publi-vert">
                 <h4>PUBLICIDAD</h4>
                 <hr>
                 <?=$publicidad_ver?>
@@ -68,7 +68,7 @@
                 <!-- Cultura -->
                 <a href="<?=base_url()?>pagina/tematica/cultura">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Clarín - Hace 20 Horas</span>
@@ -80,7 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/cultura1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                 <!-- Tecnologia -->
                 <a href="<?=base_url()?>pagina/tematica/tecnologia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Argentina.gob - Hace 6 Horas</span>
@@ -100,7 +100,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/tecnologia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                 <!-- Salud -->
                 <a href="<?=base_url()?>pagina/tematica/salud">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Infobae - Hace 1 dia</span>
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/salud1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                 <!-- Ciencia -->
                 <a href="<?=base_url()?>pagina/tematica/ciencia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>El Mundo - Hace 18 Horas</span>
@@ -140,7 +140,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/ciencia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>

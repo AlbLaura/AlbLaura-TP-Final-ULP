@@ -4,7 +4,7 @@
             <div class="col-12 text-center mt-2 mb-2"><h1>CIENCIA</h1><hr></div>
         </div>
         <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-lg-9">
                 <a href="https://www.elmundo.es/ciencia-y-salud/ciencia/2022/03/27/623df76cfdddff75728b4590.html" target="_blank"><h2>El misterioso origen del planeta enano Ceres</h2></a>
 
                 <p class="tematicas-texto mt-3">Un nuevo estudio explica los motivos por los que este pequeño y enigmático mundo es tan distinto de sus innumerables vecinos en el cinturón de asteroides</p>
@@ -60,7 +60,7 @@
                 <p class="tematicas-texto mt-3 mb-5">Los asteroides, los cometas y, en términos generales, todos los pequeños cuerpos que se formaron en las etapas iniciales del sistema solar, y que han permanecido relativamente inalterados desde entonces, son como cápsulas del tiempo que contienen información clave sobre las características de la nebulosa protosolar. Si realmente ha llegado desde los confines del cinturón de Kuiper, Ceres podrá ofrecernos pistas muy valiosas para desvelar los orígenes de nuestro sistema planetario.</p>
 
             </div>
-            <div class="col-3 text-center">
+            <div class="col-sm-12 col-lg-3 text-center" id="publi-vert">
                 <h4>PUBLICIDAD</h4>
                 <hr>
                 <?=$publicidad_ver?>
@@ -75,7 +75,7 @@
                 <!-- Cultura -->
                 <a href="<?=base_url()?>pagina/tematica/cultura">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Clarín - Hace 18 Horas</span>
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/cultura1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                 <!-- Deportes -->
                 <a href="<?=base_url()?>pagina/tematica/deportes">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>La Nacion - Hace 20 Horas</span>
@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/deporte1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                 <!-- Tecnologia -->
                 <a href="<?=base_url()?>pagina/tematica/tecnologia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Argentina.gob - Hace 6 Horas</span>
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/tecnologia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                 <!-- Salud -->
                 <a href="<?=base_url()?>pagina/tematica/salud">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Infobae - Hace 1 dia</span>
@@ -147,7 +147,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-lg-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/salud1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>

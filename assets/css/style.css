@@ -485,6 +485,9 @@ header .navbar ul li a:hover {
     *{
         transition: all 1s;
     }
+    #none {
+        display: none;
+    }
     #direccion {
         margin-bottom: 0px;
     }
@@ -552,5 +555,16 @@ header .navbar ul li a:hover {
     }
     .audiovisual {
         margin: 0px;
+    }
+    .d-div {
+        height: 75px;
+        align-items: center;
+        padding: 0px;
+    }
+    #arrow {
+        display: none;
+    }
+    #card-tiempo {
+        margin: 20px 10px;
     }
 }

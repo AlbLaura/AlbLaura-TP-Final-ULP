@@ -3,12 +3,12 @@
         <div class="col-12 text-center mt-3"><h3>TIEMPO</h3></div>
     </div>
     <div class="row">
-        <div class="col-12"><h4>Prónostico por hora</h4></div>
+        <div class="col-12" id="none"><h4>Prónostico por hora</h4></div>
     </div>
     <div class="row">
-        <div class="col-1"></div>
+        <div class="col-lg-1" id="none"></div>
         
-        <div class="col-2 ">
+        <div class="col-lg-2">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal">
                     <div class="card-header"><h3>San Luis, AR</h3></div>
@@ -20,8 +20,8 @@
                 </div>
             </a>
         </div>
-        <div class="col-1"></div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none"></div>
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>13:00</h2></div>
@@ -33,7 +33,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>14:00</h2></div>
@@ -45,7 +45,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>15:00</h2></div>
@@ -57,7 +57,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>16:00</h2></div>
@@ -69,7 +69,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>17:00</h2></div>
@@ -81,7 +81,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-1">
+        <div class="col-lg-1" id="none">
             <a href="https://weather.com/es-AR/tiempo/horario/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-principal p-secundaria">
                     <div class="card-header"><h2>18:00</h2></div>
@@ -97,13 +97,13 @@
             <i id="arrow"class="fa-solid fa-arrow-right fa-2xl"></i>
         </div>
         
-        <div class="col-1"></div>
+        <div class="col-lg-1" id="none"></div>
     </div>
     <div class="row">
         <div class="col-12 mt-3"><h4>Prónostico por día</h4></div>
     </div>
     <div class="row mt-3">
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">   
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h3><b>HOY</b></h3></div>
@@ -116,7 +116,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h5>MIÉRCOLES</h5></div>
@@ -129,7 +129,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h5>JUEVES</h5></div>
@@ -142,7 +142,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h5>VIERNES</h5></div>
@@ -155,7 +155,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h5>SÁBADO</h5></div>
@@ -168,7 +168,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-2">
+        <div class="col-sm-12 col-lg-2" id="card-tiempo">
             <a href="https://weather.com/es-AR/tiempo/10dias/l/388f24d07cb9d3306bf4eb93bbf378903a93f04a126f9e3554b1f10d54189806" target="_blank">
                 <div class="card p-dia p-secundaria">
                     <div class="card-header"><h5>DOMINGO</h5></div>
@@ -182,7 +182,7 @@
             </a>
         </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5" id="publi-hor">
         <div class="col-3"></div>
         <div class="col-6"><?=$publicidad_hor?></div> <!-- publicidad -->
         <div class="col-3"></div>

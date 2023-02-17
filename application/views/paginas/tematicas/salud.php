@@ -4,7 +4,7 @@
             <div class="col-12 text-center mt-2 mb-2"><h1>SALUD</h1><hr></div>
         </div>
         <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-lg-9">
                 <a href="https://www.infobae.com/salud/ciencia/2022/10/23/los-efectos-beneficiosos-de-la-naturaleza-para-la-salud-mental/" target="_blank"><h2>Los efectos beneficiosos de la naturaleza para la salud mental</h2></a>
 
                 <p class="tematicas-texto mt-3">Un estudio científico comprobó que caminar al menos 1 hora al día en la naturaleza puede ayudar a prevenir y disminuir el estrés. Cuáles son los efectos positivos, según la ciencia</p>
@@ -41,7 +41,7 @@
 
                 <p class="tematicas-texto mt-5 mb-5">Actualmente, los investigadores están estudiando cómo una caminata de una hora en la naturaleza contra los entornos urbanos, afecta el estrés en las madres y sus bebés para así investigar los efectos positivos de la naturaleza. “Muchas personas desconocen la importancia de la salud mental y cuántas personas en todo el mundo tienen problemas mentales sin siquiera saberlo. Por lo tanto, hay que recordar que debemos cuidar nuestra mente al igual que cuidamos nuestro físico”, concluye Kühn.</p>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-3 text-center" id="publi-vert">
                 <h4>PUBLICIDAD</h4>
                 <hr>
                 <?=$publicidad_ver?>
@@ -56,7 +56,7 @@
                 <!-- Cultura -->
                 <a href="<?=base_url()?>pagina/tematica/cultura">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Clarín - Hace 18 Horas</span>
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/cultura1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                 <!-- Deportes -->
                 <a href="<?=base_url()?>pagina/tematica/deportes">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>La Nacion - Hace 20 Horas</span>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/deporte1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                 <!-- Tecnologia -->
                 <a href="<?=base_url()?>pagina/tematica/tecnologia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Argentina.gob - Hace 6 Horas</span>
@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/tecnologia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                 <!-- Ciencia -->
                 <a href="<?=base_url()?>pagina/tematica/ciencia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>El Mundo - Hace 18 Horas</span>
@@ -128,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/ciencia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>

@@ -4,7 +4,7 @@
             <div class="col-12 text-center mt-2 mb-2"><h1>CULTURA</h1><hr></div>
         </div>
         <div class="row">
-            <div class="col-9">
+            <div class="col-sm-12 col-lg-9">
                 <a href="https://www.clarin.com/cultura/comienza-feria-libro-santiago-estero-100-actividades_0_t4MGrBtzPk.html" target="_blank"><h2>Comienza la Feria del Libro de Santiago del Estero con más de 100 actividades</h2></a>
 
                 <p class="tematicas-texto mt-3">Es la más importante del NOA y arranca este miércoles con entrada gratuita. Hasta el domingo, participarán, entre otros, Claudia Piñeiro, Luis Gusmán y Guillermo Martínez.</p>
@@ -55,7 +55,7 @@
 
                 <p class="tematicas-texto mt-3 mb-2">Estas son solo algunas de las 150 actividades que se llevarán a cabo en los cuatro intensos días que vivirá esta nueva y prometedora edición de la Feria del Libro de Santiago del Estero.</p>
             </div>
-            <div class="col-3 text-center">
+            <div class="col-3 text-center" id="publi-vert">
                 <h4>PUBLICIDAD</h4>
                 <hr>
                 <?=$publicidad_ver?>
@@ -70,7 +70,7 @@
                 <!-- Deportes -->
                 <a href="<?=base_url()?>pagina/tematica/deportes">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>La Nacion - Hace 20 Horas</span>
@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/deporte1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                 <!-- Tecnologia -->
                 <a href="<?=base_url()?>pagina/tematica/tecnologia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Argentina.gob - Hace 6 Horas</span>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/tecnologia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                 <!-- Salud -->
                 <a href="<?=base_url()?>pagina/tematica/salud">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>Infobae - Hace 1 dia</span>
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/salud1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                 <!-- Ciencia -->
                 <a href="<?=base_url()?>pagina/tematica/ciencia">
                     <div class="row d-noticia cultura mb-3">
-                        <div class="col-9">
+                        <div class="col-sm-12 col-lg-9">
                             <div class="row">
                                 <div class="col-12">
                                     <span>El Mundo - Hace 18 Horas</span>
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" id="none">
                             <img class="d-imagenes img-fluid float-right"src="<?=base_url()?>assets/imagenes/tematicas/ciencia1.jpg" alt="noticia 1 - dolar">
                         </div>
                     </div>
